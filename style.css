@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(252, 252, 247);
+}
+.logo{
+    padding: 10px;
+
+}
+.logo img{
+    top: 0px;
+    left: 55px;
+    position: relative;
+}
+.mainsection{
+    /* background-color: aquamarine; */
+    /* border: 2px solid grey; */
+    margin:20px 20px;
+    padding: 25px 25px;
+    display: flex;
+    
+}
+.mainlog{
+    position: relative;
+    left: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.cointainer{
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 108px;
+    left: 50px;
+}
+.cointainer h4{
+    background-color:rgb(59 178 59);
+    font-size: 21px;
+    display: inline-block;
+    padding-top: 10px;
+    color: white;
+}
+.cointainer h1{
+    font-size: 58px;
+    padding-top: 15px;
+}
+.cointainer p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.cointainer button{
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 16px;
+    background-color: rgb(247, 199, 111);
+    color: white;
+}
+.hovers:hover{
+background-color: blue;
+}
+.bottommain{
+    /* border: 2px solid red; */
+    /* background-color: blueviolet; */
+    /* margin: 25px; */
+    padding: 25px;
+    position: relative;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.img1,.img2,.img3{
+    margin: 15px;
+    padding: 15px;
+
+}
+.images h3{
+    font-size: 28px;
+
+}
+.images p{
+    padding-top: 15px;
+}
+.gridlayout{
+    text-align: center;
+    font-size: 28px;
+    padding: 25px;
+    margin: 10px;
+}
+.gridlayout{
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 16px;
+    /* background-color: rgb(247, 199, 111); */
+    /* color: white; */
+    text-align: center;
+}
+.gridlayout button{
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 16px;
+    background-color:rgb(59 178 59);
+    margin: 18px;
+}
+.gridimage{
+    display: grid;
+    column-gap: 10px;
+grid-template-columns: auto auto auto ;
+/* border: 2px solid red; */
+/* background-color: blue; */
+margin: 25px 25px;
+gap: 15px;
+margin-bottom: 120px;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  .item3 {
+    grid-column: 4;
+    grid-row: 2 ;
+  }
+  .item4 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+  .item5 {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+  }
+  .item6 {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+  }
+  .item7 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+  .foot{
+    background-color: rgb(240, 215, 169);
+    width: 100%;
+    height: 280px;
+    /* border: 2px solid red; */
+  }
+  .images1{
+    position:relative;
+    /* border: 2px solid green; */
+    display: flex;
+    top: 35px ;
+  }
+  .images1 img{
+    position: relative;
+    padding: 10px;
+    left: 40px;
+    top: 50px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+  }
+  .images1 ul{
+    text-align: center;
+    padding: 25px 25px  ;
+    margin: 25px 25px;
+    list-style-type: none;
+    
+  }
+  .images1 ul h2{
+    font-size: 34px;
+    padding: 10px;
+
+  }
